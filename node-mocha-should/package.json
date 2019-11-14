@@ -13,5 +13,8 @@
   "devDependencies": {
     "mocha": "^6.2.2",
     "should": "^13.2.3"
+  },
+  "dependencies": {
+    "co": "^4.6.0"
   }
 }
