@@ -7,4 +7,8 @@ describe('Promise2 Test', () => {
     it('Welcome to Tmall', () => {
         return mylib('Tmall').should.be.fulfilledWith('Welcome to Tmall');
     });
+
+    it('Hello TB', () => {
+        return mylib('TB').should.be.fulfilledWith('Hello TB');
+    });
 });
