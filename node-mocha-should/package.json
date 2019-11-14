@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cover": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha",
-    "test": "./node_modules/.bin/_mocha",
+    "cover": "cross-env NODE_ENV=test ./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha",
+    "test": "cross-env NODE_ENV=test ./node_modules/.bin/_mocha --require should",
     "test123": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cross-env": "^6.0.3",
     "istanbul": "^0.4.5",
     "mocha": "^6.2.2",
     "should": "^13.2.3"
