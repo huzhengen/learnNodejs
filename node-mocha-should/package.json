@@ -1,0 +1,17 @@
+{
+  "name": "node-mocha-should",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha",
+    "test123": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "should": "^13.2.3"
+  }
+}
